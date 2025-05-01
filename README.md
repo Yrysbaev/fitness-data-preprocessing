@@ -1,6 +1,7 @@
-# 🧠 Data Preprocessing Project - Workout & Fitness Tracker Dataset
+# 🏋️‍♂️ Workout Clustering Analysis – Data Mining Project
 
-This repository contains a Jupyter Notebook that demonstrates the key steps in **data preprocessing** using a real-world dataset related to workout and fitness tracking. The project is part of a Data Mining course assignment.
+This repository contains a Jupyter Notebook that demonstrates K-Means clustering applied to a **Workout and Fitness Tracker** dataset.  
+The project is part of Homework 3 & 4 for the Data Mining course.
 
 ---
 
@@ -14,24 +15,24 @@ This repository contains a Jupyter Notebook that demonstrates the key steps in *
 
 ## 🔍 Project Goals
 
-The notebook walks through **five essential steps** of data preprocessing:
+The notebook focuses on applying **Cluster Analysis** to uncover patterns and group workout sessions based on intensity.  
+Key steps include:
+- Feature selection (duration, calories, heart rates)
+- Data scaling (StandardScaler)
+- K-Means clustering (3 clusters)
+- Visualization (scatter plots, boxplots)
+- Cluster interpretation and insights
 
-1. **Data Cleaning**
-   - Handle missing values
-   - Remove duplicates
-   - Check data types
+---
 
-2. **Data Reduction**
-   - Apply PCA (Principal Component Analysis) for dimensionality reduction
+## 📊 Findings
 
-3. **Data Transformation**
-   - Normalize numeric values using MinMaxScaler
+The analysis identified three main clusters:
+1. **High-Intensity Workouts** → Long duration, high calories, high heart rate  
+2. **Moderate Workouts** → Medium duration, moderate calories, average heart rate  
+3. **Light Workouts** → Short duration, low calories, lower heart rate
 
-4. **Data Discretization**
-   - Convert continuous variables into categorical bins
-
-5. **(Optional) Data Integration**
-   - Ready for merging with other datasets if required
+These insights help understand workout patterns and guide fitness goal setting.
 
 ---
 
@@ -47,7 +48,7 @@ The notebook walks through **five essential steps** of data preprocessing:
 
 ## 📸 Preview
 
-![PCA Visualization Example](preview.png) <!-- Optional: Add a screenshot of your PCA plot -->
+![Clustering Visualization Example](preview.png) <!-- Optional: Add a scatter plot or boxplot screenshot -->
 
 ---
 
@@ -61,5 +62,6 @@ April 2025
 
 ## 📜 License
 
-This project is intended for educational purposes. Dataset license and usage rights belong to the original authors on Kaggle.
+This project is intended for educational purposes.  
+The dataset’s license and usage rights belong to the original authors on Kaggle.
 
